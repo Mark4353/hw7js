@@ -6,6 +6,7 @@ export const products = [
     description: "A high-performance laptop for all your needs.",
   },
   {
+    
     id: 2,
     name: "Smartphone",
     price: 700,
