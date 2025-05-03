@@ -1,29 +1,32 @@
 {
-  "name": "npm",
+  "name": "hw7js",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://github.com/Mark4353/hw7js#readme",
-  "bugs": {
-    "url": "https://github.com/Mark4353/hw7js/issues"
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "deploy": "gh-pages -d build",
+    "prederloy": "npm run build",
+    "deploys": "gh-pages-deploy"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Mark4353/hw7js.git"
   },
-  "license": "ISC",
+  "keywords": [],
   "author": "",
+  "license": "ISC",
   "type": "commonjs",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "gh-pages -d build",
-    "prederloy": "npm run build",
-    "deploys": "gh-pages-deploy"
+  "bugs": {
+    "url": "https://github.com/Mark4353/hw7js/issues"
   },
+  "homepage": "https://github.com/Mark4353/hw7js#readme",
   "devDependencies": {
-    "parcel": "^2.14.1"
+    "parcel": "^2.14.4"
   },
   "dependencies": {
+    "gh-pages": "^6.3.0",
     "handlebars": "^4.7.8"
   }
 }
