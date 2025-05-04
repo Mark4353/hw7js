@@ -17,8 +17,17 @@
   "author": "",
   "license": "ISC",
   "type": "commonjs",
+<<<<<<< Updated upstream
   "bugs": {
     "url": "https://github.com/Mark4353/hw7js/issues"
+=======
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d build",
+    "prederloy": "npm run build",
+    "deploys": "gh-pages-deploy",
+    "start": "parcel index.html"
+>>>>>>> Stashed changes
   },
   "homepage": "https://github.com/Mark4353/hw7js#readme",
   "devDependencies": {
