@@ -17,7 +17,7 @@
     "deploys": "gh-pages-deploy",
     "start": "parcel index.html"
   },
-  "homepage": "https://github.com/Mark4353/hw7js/",
+  "homepage": "https://Mark4353.github.com/hw7js/",
   "devDependencies": {
     "gh-pages": "^6.3.0",
     "parcel": "^2.14.4"
