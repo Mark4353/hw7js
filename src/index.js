@@ -1,8 +1,8 @@
 import Handlebars from 'handlebars';
-import { products } from './data.js';
-import templateText from './template.hbs?raw'; 
+import products  from './data.json';
+import templateText from './template.hbs'; 
 
-const template = Handlebars.compile(templateText);
-const html = template(products);
+// const template = Handlebars.compile(templateText);
+const html = templateText({products});
 
 document.body.innerHTML = html;

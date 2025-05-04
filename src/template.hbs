@@ -1,7 +1,8 @@
 <ul>
-  {{#each this}}
+  {{#each products}}
     <li>
-      <h2>{{name}} - ${{price}}</h2>
+      <h2>{{name}}</h2>
+      <p class="price">${{price}}</p>
       <p>{{description}}</p>
     </li>
   {{/each}}
