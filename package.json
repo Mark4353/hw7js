@@ -18,7 +18,7 @@
     "start": "parcel index.html ",
     "build": "parcel build index.html --dist-dir dist --public-url ./"
   },
-  "homepage": "https://mark4353.github.io/index.html/",
+  "homepage": "https://mark4353.github.io/hw7js/",
   "devDependencies": {
     "gh-pages": "^6.3.0",
     "parcel": "^2.14.4"
