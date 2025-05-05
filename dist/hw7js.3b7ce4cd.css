@@ -1,0 +1,2 @@
+ul{flex-wrap:wrap;justify-content:center;gap:30px;display:flex}li{text-align:center;border:3px solid #000;border-radius:10px;width:300px;height:200px;padding-top:35px;list-style:none;transition:box-shadow .5s linear}li:hover{transition:box-shadow .5s linear;box-shadow:5px 4px 14px .1px #000000bf}.price{color:#000;font-weight:700}p{font-family:Courier New,Courier,monospace}h2{color:#000;font-family:Gill Sans,Gill Sans MT,Calibri,Trebuchet MS,sans-serif;font-weight:700}
+/*# sourceMappingURL=hw7js.3b7ce4cd.css.map */

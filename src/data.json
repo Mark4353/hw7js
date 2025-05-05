@@ -16,5 +16,23 @@
     "name": "Headphones",
     "price": 200,
     "description": "Noise-cancelling headphones for better focus."
+  },
+  {
+    "id": 4,
+    "name": "Smartwatch",
+    "price": 300,
+    "description": "A smartwatch with fitness tracking features."
+  },
+  {
+    "id": 5,
+    "name": "Tablet",
+    "price": 400,
+    "description": "A versatile tablet for work and play."
+  },
+  {
+    "id": 6,
+    "name": "Camera",
+    "price": 1200,
+    "description": "A professional camera for stunning photography."
   }
 ]

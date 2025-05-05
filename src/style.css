@@ -2,6 +2,7 @@ ul {
   display: flex;
   justify-content: center;
   gap: 30px;
+  flex-wrap: wrap;
 }
 li {
   padding-top: 35px;

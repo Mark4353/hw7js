@@ -13,11 +13,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "deploy": "gh-pages -d dist",
-    "prederloy": "npm run build",
+    "predeploy": "npm run build",
     "deploys": "gh-pages-deploy",
-    "start": "parcel index.html"
+    "start": "parcel index.html ",
+    "build": "parcel build index.html --dist-dir dist --public-url ./"
   },
-  "homepage": "https://mark4353.github.io/hw7js/",
+  "homepage": "https://mark4353.github.io/index.html/",
   "devDependencies": {
     "gh-pages": "^6.3.0",
     "parcel": "^2.14.4"
