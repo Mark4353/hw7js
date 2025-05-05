@@ -160,11 +160,11 @@
       });
     }
   }
-})({"5j6Kf":[function(require,module,exports,__globalThis) {
+})({"6w8HW":[function(require,module,exports,__globalThis) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
-var HMR_SERVER_PORT = 1234;
+var HMR_SERVER_PORT = 61981;
 var HMR_SECURE = false;
 var HMR_ENV_HASH = "439701173a9199ea";
 var HMR_USE_SSE = false;
@@ -674,7 +674,6 @@ var _dataJson = require("./data.json");
 var _dataJsonDefault = parcelHelpers.interopDefault(_dataJson);
 var _templateHbs = require("./template.hbs");
 var _templateHbsDefault = parcelHelpers.interopDefault(_templateHbs);
-// const template = Handlebars.compile(templateText);
 const html = (0, _templateHbsDefault.default)({
     products: (0, _dataJsonDefault.default)
 });
@@ -11853,7 +11852,7 @@ var isSourceNode = "$$$isSourceNode$$$";
 exports.SourceNode = SourceNode;
 
 },{"a07d2c2c4b11c39f":"fWPsq","18d5ff036a08fa06":"5Iq0C"}],"c8qZ6":[function(require,module,exports,__globalThis) {
-module.exports = JSON.parse("[{\"id\":1,\"name\":\"Laptop\",\"price\":1500,\"description\":\"A high-performance laptop for all your needs.\"},{\"id\":2,\"name\":\"Smartphone\",\"price\":700,\"description\":\"A modern smartphone with an excellent camera.\"},{\"id\":3,\"name\":\"Headphones\",\"price\":200,\"description\":\"Noise-cancelling headphones for better focus.\"}]");
+module.exports = JSON.parse("[{\"id\":1,\"name\":\"Laptop\",\"price\":1500,\"description\":\"A high-performance laptop for all your needs.\"},{\"id\":2,\"name\":\"Smartphone\",\"price\":700,\"description\":\"A modern smartphone with an excellent camera.\"},{\"id\":3,\"name\":\"Headphones\",\"price\":200,\"description\":\"Noise-cancelling headphones for better focus.\"},{\"id\":4,\"name\":\"Smartwatch\",\"price\":300,\"description\":\"A smartwatch with fitness tracking features.\"},{\"id\":5,\"name\":\"Tablet\",\"price\":400,\"description\":\"A versatile tablet for work and play.\"},{\"id\":6,\"name\":\"Camera\",\"price\":1200,\"description\":\"A professional camera for stunning photography.\"}]");
 
 },{}],"hkzEc":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -11971,6 +11970,6 @@ exports.export = function(dest, destName, get) {
     });
 };
 
-},{}]},["5j6Kf","a0t4e"], "a0t4e", "parcelRequire565e", {})
+},{}]},["6w8HW","a0t4e"], "a0t4e", "parcelRequire565e", {})
 
 //# sourceMappingURL=hw7js.31b563d9.js.map

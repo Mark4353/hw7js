@@ -1,4 +1,5 @@
 ul {
+  flex-wrap: wrap;
   justify-content: center;
   gap: 30px;
   display: flex;
