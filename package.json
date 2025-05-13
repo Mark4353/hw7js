@@ -16,7 +16,7 @@
     "predeploy": "npm run build",
     "deploys": "gh-pages-deploy",
     "start": "parcel index.html ",
-    "build": "parcel build index.html --dist-dir dist --public-url ./"
+    "build": "parcel build index.html --no-cache --public-url /hw7js/"
   },
   "homepage": "https://mark4353.github.io/hw7js/",
   "devDependencies": {
